@@ -1,1 +1,207 @@
-/* You can add global styles to this file, and also import other style files */
+.content {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: wrap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #42495B;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.4rem;
+  font-weight: normal;
+  color: #42495B;
+  margin: 0
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #7A839E;
+  text-transform: uppercase;
+  margin: 0
+}
+
+.section {
+  margin-top: 24px;
+  height: calc(100vh - 140px);
+}
+
+.right,
+.left {
+  flex: 0.5;
+  padding: 5;
+}
+
+.custom-cards-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-auto-rows: 414px;
+}
+
+.custom-card {
+  max-width: 366.84px;
+  padding: 30px;
+  margin: auto;
+  height: auto;
+  background-color: white;
+  border: 0;
+  border-radius: 36px;
+  -webkit-box-shadow: 0px 0px 20px -8px rgba(126, 118, 249, 0.63);
+  -moz-box-shadow: 0px 0px 20px -8px rgba(126, 118, 249, 0.63);
+  box-shadow: 0px 0px 20px -8px rgba(126, 118, 249, 0.63);
+}
+
+.custom-btn {
+  background-color: rgb(97, 86, 249);
+  color: white;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.big-btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 6px;
+  margin-top: 30px;
+  height: 50px;
+}
+
+.small-btn {
+  width: 93.49px;
+  font-size: 0.9rem;
+  height: 29.73px;
+  padding: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn-outline {
+  color: #42495B;
+  background-color: transparent;
+  border: 1.5px solid #1000FF;
+}
+
+.bg-img-container {
+  position: absolute;
+  /* right: 0; */
+  /* max-width: 725px; */
+  height: 100%;
+  z-index: -99999999;
+  text-align: center;
+}
+
+.bg-shape {
+  width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 1023px) {
+  .logo {
+    content: url("assets/logo-white.svg");
+  }
+
+  /* .custom-card {
+    margin: auto;
+  } */
+
+  /* the following is to make sure the header picture is stacked on top of the paragraph on mobiles */
+  .content {
+    flex-direction: column !important;
+    margin-top: 115px;
+  }
+
+  #first>.content>.right {
+    order: 1
+  }
+
+  #first>.content>.left {
+    order: 2
+  }
+
+  /* hide scroll button */
+  .icon-bg {
+    display: none;
+  }
+
+  .bg-img-container {
+    display: none
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+  #pricing-slider {
+    display: block !important;
+  }
+
+  #pricing-columns {
+    display: none !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+  .logo {
+    content: url("assets/logo.svg");
+  }
+
+  #bg {
+    width: 70% !important;
+  }
+
+  section,
+  header {
+    height: 100vh
+  }
+
+  /* #bg {
+    width: 100%;
+  } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #bg {
+    max-width: 900px !important;
+  }
+}

@@ -1,0 +1,33 @@
+#fourth {
+  padding-top: 20%;
+}
+
+.intro {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.bg {
+  /* for escaping the main container */
+  width: 100vw;
+  margin-left: 49%;
+  transform: translateX(-50%);
+
+  background-color: #ECEAFE;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+
+.pricing-container {}
+
+#pricing-slider {
+  display: none;
+}
+
+/* #pricing-columns {
+  display: block;
+} */

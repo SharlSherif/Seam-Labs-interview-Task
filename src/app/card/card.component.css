@@ -1,0 +1,20 @@
+.icon {
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #42495B;
+  text-transform: none;
+  text-align: left;
+}
+
+button {
+  float: right;
+}

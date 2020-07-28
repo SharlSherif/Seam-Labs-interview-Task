@@ -1,0 +1,10 @@
+<section id="third" class="mb-5">
+  <div class="intro">
+    <h2>what we offer</h2>
+  </div>
+  <div class="bg-img-container"><img src="assets/bg-shape-3.svg" class="bg-shape"></div>
+  <div class="custom-cards-grid">
+    <app-card *ngFor="let card of cards" icon={{card.icon}} title={{card.title}} description={{card.description}}>
+    </app-card>
+  </div>
+</section>

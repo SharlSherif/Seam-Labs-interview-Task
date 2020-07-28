@@ -1,0 +1,33 @@
+
+.header-pic {
+  max-width: 621.68px;
+  width: 100%;
+  float: right
+}
+
+.intro {
+  margin-top: 136px;
+}
+.intro>h2{
+  text-transform: uppercase;
+}
+
+.icon-bg {
+  width: 66px;
+  height: 66px;
+  transform: translate(-50%, -50%);
+  right: 50%;
+  left: 50%;
+  position: absolute;
+  bottom: 0px;
+
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 2px 14px -1px #7E76F9;
+}
+
+.icon-bg>img {
+  margin-top: 12px;
+  width: 28px;
+}

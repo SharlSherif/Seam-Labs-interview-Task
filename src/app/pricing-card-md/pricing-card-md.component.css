@@ -1,0 +1,33 @@
+
+
+.icon {
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 1.5rem;
+}
+
+.price>h1 {
+  color: #1000FF;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #7A839E;
+  text-transform: none;
+}
+
+button {
+  text-transform: capitalize;
+}

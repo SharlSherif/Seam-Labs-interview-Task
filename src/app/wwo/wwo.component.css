@@ -1,0 +1,10 @@
+h2 {
+  text-transform: capitalize;
+  padding: 35px;
+}
+
+.bg-img-container {
+  height: 0;
+  right: 0;
+  left: 0;
+}

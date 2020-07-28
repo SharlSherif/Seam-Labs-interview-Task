@@ -1,0 +1,29 @@
+#second {
+  padding-top: 30px;
+}
+
+.wwa-pic {
+  max-width: 652.64px;
+  width: 100%;
+}
+
+
+.right>.text-box>h2 {
+  text-transform: capitalize;
+}
+
+.right>.text-box>p {
+  text-transform: lowercase;
+}
+
+.right>.text-box {
+  height: 50%;
+}
+
+#second .left {
+  text-align: center;
+}
+
+.text-box>button {
+  margin-top: 20px;
+}

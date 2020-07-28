@@ -1,0 +1,26 @@
+.navbar-toggler {
+  border-width: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../assets/hamburger.svg") !important;
+  width: 36.9px;
+}
+
+.logo {
+  flex: 0.1;
+  width: 200px;
+}
+
+nav.navbar {
+  flex: 0.9;
+  padding-top: 30px;
+}
+
+.nav-item a {
+  margin-left: 40px;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}

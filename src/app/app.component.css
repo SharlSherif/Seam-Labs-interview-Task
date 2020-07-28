@@ -1,0 +1,10 @@
+.container-fluid {
+  width: 90%;
+}
+
+#bg {
+  position: absolute;
+  right: 0px;
+  max-width: 1000px;
+  z-index: -9999;
+}
